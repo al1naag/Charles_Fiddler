@@ -260,32 +260,8 @@
       <entry>
         <string>Breakpoints</string>
         <breakpoints>
-          <toolEnabled>false</toolEnabled>
+          <toolEnabled>true</toolEnabled>
           <breakpoints>
-            <breakpoint>
-              <location>
-                <protocol>https</protocol>
-                <host>nordclan.com</host>
-                <path>/api/blogposts</path>
-                <query>hidden=false</query>
-              </location>
-              <scheme>GET</scheme>
-              <request>false</request>
-              <response>true</response>
-              <enabled>true</enabled>
-            </breakpoint>
-            <breakpoint>
-              <location>
-                <protocol>https</protocol>
-                <host>nordclan.com</host>
-                <path>api/blogposts</path>
-                <query>hidden=false</query>
-              </location>
-              <scheme>GET</scheme>
-              <request>true</request>
-              <response>false</response>
-              <enabled>false</enabled>
-            </breakpoint>
             <breakpoint>
               <location>
                 <protocol>http</protocol>
@@ -296,7 +272,7 @@
               <scheme>GET</scheme>
               <request>false</request>
               <response>true</response>
-              <enabled>false</enabled>
+              <enabled>true</enabled>
             </breakpoint>
             <breakpoint>
               <location>
@@ -308,7 +284,7 @@
               <scheme>POST</scheme>
               <request>false</request>
               <response>true</response>
-              <enabled>false</enabled>
+              <enabled>true</enabled>
             </breakpoint>
             <breakpoint>
               <location>
@@ -320,7 +296,7 @@
               <scheme>GET</scheme>
               <request>false</request>
               <response>true</response>
-              <enabled>false</enabled>
+              <enabled>true</enabled>
             </breakpoint>
           </breakpoints>
         </breakpoints>
